@@ -13,6 +13,11 @@ a
     text-decoration: none;
 }
 
+a:hover
+{
+    text-decoration: underline;
+}
+
 /* Aside */
 aside
 {
@@ -44,6 +49,7 @@ aside img
     margin: 10px auto;
     max-width: 150px;
 }
+
 /* Body */
 body 
 {
@@ -55,7 +61,7 @@ footer
 {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 15px;
+    font-size: 10px;
     padding: 20px;
     text-align: center;
 }
@@ -69,7 +75,18 @@ header
     padding: 20px;
 }    
 
-header div 
+header h1 
+{
+    display: inline-block;
+    font-size: 48px;
+}
+
+header h1 .seo 
+{
+    color: #d9dcd6;
+}
+
+header nav 
 {
     padding-top: 15px;
     margin-right: 20px;
@@ -78,14 +95,12 @@ header div
     font-size: 20px;
 }
 
-header div ul 
+header nav ul 
 {
     list-style-type: none;
-    float: right;
-    margin-left: 25px;
 }
 
-header div ul li 
+header nav ul li 
 {
     display: inline-block;
     margin-left: 25px;
@@ -102,21 +117,15 @@ header h1 .seo
     color: #d9dcd6;
 }
 
-/* Paragraph */
-p 
-{
-    font-size: 16px;
-}
-
-/* Section */
-section
+/* Main */
+main
 {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-section div  
+main div  
 {
     margin-bottom: 20px; 
     padding: 50px;
@@ -126,11 +135,18 @@ section div
     color: #ffffff;
 }
 
-section h2 
+main h2 
 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* Paragraph */
+p 
+{
+    font-size: 16px;
+}
+
 
 /* Classes */
 
