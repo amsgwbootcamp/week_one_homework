@@ -119,6 +119,14 @@ p {
 
 /* Classes */
 
+.float-left {
+    float: left;
+}   
+
+.float-right {
+    float: right;
+}
+
 .hero {
     background-position: center;
     background-size: cover;
@@ -133,11 +141,4 @@ p {
     max-height: 200px;
 }
 
-.float-left {
-    float: left;
-}   
-
-.float-right {
-    float: right;
-}
 
