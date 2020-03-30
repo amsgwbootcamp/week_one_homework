@@ -94,8 +94,7 @@ header nav ul li {
 /* Main */
 main {
     display: inline-block;
-    margin-left: 20px;
-    width: 75%;
+    width: 100%;
 }
 
 main section {
